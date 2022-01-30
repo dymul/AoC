@@ -11,4 +11,8 @@ public class Split {
     public String get(int i) {
         return split[i];
     }
+
+    public Integer getAsInt(int i) {
+        return Integer.parseInt(split[i]);
+    }
 }
