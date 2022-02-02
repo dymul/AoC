@@ -7,7 +7,7 @@ import java.util.function.Supplier;
 
 public class Runner {
 
-    public static Supplier<Day> dayProvider = Day16::new;
+    public static Supplier<Day> dayProvider = Day17::new;
 
     public static void main(String[] args) throws Exception {
 
